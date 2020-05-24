@@ -1,0 +1,29 @@
+header {
+    border-bottom: 5px solid #s;
+}
+
+footer {
+    background-color: #343a40;
+    height: 45px;
+    border-top: 5px solid #bfb5d3;
+}
+
+a {
+    color: #fff;
+
+}
+
+.container {
+    margin-left: .5rem;
+  }
+
+.navbar {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+/* cfaecf lilac*/ 
+/* 343a40 dark grey BS*/
+
