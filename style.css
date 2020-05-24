@@ -5,7 +5,8 @@ header {
 footer {
     background-color: #343a40;
     height: 45px;
-    border-top: 5px solid #bfb5d3;
+    border-top: 5px solid #9685b6 ;
+    padding-top: 5px;
 }
 
 a {
@@ -15,6 +16,7 @@ a {
 
 .container {
     margin-left: .5rem;
+    max-width: 768px;
   }
 
 .navbar {
@@ -22,6 +24,15 @@ a {
     padding-right: 2rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
+}
+
+.card {
+    background-color: #bfb5d3
+}
+
+.card-text {
+    color: #fff;
+    font-weight: bolder;
 }
 
 /* cfaecf lilac*/ 
