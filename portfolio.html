@@ -1,73 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rock+Salt&display=swap" rel="stylesheet">
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
         <!-- Navbar -->
-        <nav id="home"class="navbar navbar-dark bg-dark text-light">
+        <nav id="home" class="navbar text-light">
             <span class="navbar-brand mb-0 h1">randze</span>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">About Me</a>
+                    <a class="nav-link" href="index.html">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-              </ul>
+            </ul>
         </nav>
     </header>
-
-    <section class="container">
-        <br>
-        <div class="row">
-            <!-- 1st Card -->
-            <article class="col-12 col-sm-6 text-center">
-                <div class="card" style="margin-bottom: 2rem;">
-                    <img src="./images/MolangFront2.png" class="card-img-top" alt="Word Guess">
+    <div class="container-fluid justify-content-center">
+        <section class="container">
+            <br>
+            <div class="row">
+                <!-- 1st Card -->
+                <div class="card col-12 col-sm text-center">
+                    <div class="card-header">
+                        <p class="card-text">PetHome Project</p>
+                    </div>
+                    <img src="./assets/img/pethome.jpg" class="card-img-top" alt="PetHome">
                     <div class="card-body">
-                        <p class="card-text">Word Guess</p>
+                        <a href="https://github.com/nuleeannajeon/PetHome">PetHome <i class="fab fa-github"></i></a>
+                        <br><a href="https://nuleeannajeon.github.io/PetHome/">Site <i class="fas fa-globe"></i></a>
                     </div>
                 </div>
-            </article>
-            <!-- 2nd Card -->
-            <article class="col-12 col-sm-6 text-center">
-                <div class="card" style="margin-bottom: 2rem;">
-                    <img src="./images/MolangFront2.png" class="card-img-top" alt="RPG Game">
+                <!-- 2nd Card -->
+                <div class="card col-12 col-sm text-center">
+                    <div class="card-header">
+                        <p class="card-text">Code-Quiz</p>
+                    </div>
+                    <img src="./assets/img/codequiz.jpg" class="card-img-top" alt="CodeQuiz">
                     <div class="card-body">
-                        <p class="card-text">RPG Game</p>
+                        <a href="https://github.com/randze/code-quiz">Code-Quiz <i class="fab fa-github"></i></a>
+                        <br><a href="https://randze.github.io/code-quiz/">Site <i class="fas fa-globe"></i></a>
                     </div>
                 </div>
-            </article>
-            <!-- 3rd Card -->
-            <article class="col-12 col-sm-6 text-center">
-                <div class="card" style="margin-bottom: 2rem;">
-                    <img src="./images/MolangFront2.png" class="card-img-top" alt="Trivia Game">
+                <!-- 3rd Card -->
+                <div class="card col-12 col-sm text-center">
+                    <div class="card-header">
+                        <p class="card-text">Weather Dash</p>
+                    </div>
+                    <img src="./assets/img/weatherdash.jpg" class="card-img-top" alt="CodeQuiz">
                     <div class="card-body">
-                        <p class="card-text">Trivia Game</p>
+                        <a href="https://github.com/randze/weather-dash">Weather Dash <i class="fab fa-github"></i></a>
+                        <br><a href="https://randze.github.io/weather-dash/">Site <i class="fas fa-globe"></i></a>
                     </div>
                 </div>
-            </article>
-            <!-- 4th Card -->
-            <article class="col-12 col-sm-6 text-center">
+                <!-- 4th Card -->
+                <!-- <article class="col-12 col-sm-6 text-center">
                 <div class="card" style="margin-bottom: 2rem;">
                     <img src="./images/MolangFront2.png" class="card-img-top" alt="Info Widget">
                     <div class="card-body">
                         <p class="card-text">Info Widget</p>
                     </div>
                 </div>
-            </article>
-            <!-- 5th Card -->
+            </article> -->
+                <!-- 5th Card
             <article class="col-12 col-sm-6 text-center">
                 <div class="card" style="margin-bottom: 2rem;">
                     <img src="./images/MolangFront2.png" class="card-img-top" alt="Rock Paper Scissors">
@@ -75,16 +95,18 @@
                         <p class="card-text">Rock Paper Scissors</p>
                     </div>
                 </div>
-            </article>
-        </div>
-    </section>
-    
+            </article> -->
+            </div>
+        </section>
+    </div>
+
     <!-- spacing -->
     <br><br>
 
     <footer class="fixed-bottom text-center align-middle">
-            <span style="color:#fff; font-size:12px;">randze works &#169;</span>
+        <span style="color:#fff; font-size:12px;">randze works &trade;</span>
 
     </footer>
 </body>
+
 </html>
