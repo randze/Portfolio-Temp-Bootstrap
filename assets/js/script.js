@@ -37,6 +37,10 @@ const projects = [
     }
 ]
 
+
+
+// col-12 col-sm
+
 for (const {name, img, github, site} of projects) {
     document.querySelector('#projects').innerHTML +=
     `
@@ -53,6 +57,3 @@ for (const {name, img, github, site} of projects) {
     </div>
     `
 }
-
-// col-12 col-sm
-
