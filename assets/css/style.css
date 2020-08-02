@@ -21,7 +21,6 @@ footer {
 a {
     color: #fff;
     text-decoration: none;
-    
 }
 
 a:hover {
@@ -61,12 +60,14 @@ h2 {
 }
 
 .card {
-    background-color: #bfb5d3;
-    margin-right: .5rem;
-    padding-right: 0;
-    padding-left: 0;
+    /* background-color: #bfb5d3; */
+    background-color: #252525;
+    /* margin-right: .5rem; */
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin-top: 0;
     margin-bottom: 1rem;
+    border: none;
 }
 
 .card-text {
